@@ -47,7 +47,7 @@ app.run(port=8080)
 
 #### Swagger UI 控制台
 
-缺省情况下，API的Swagger UI在<font size=4 color="#FFB90F">base\_path/ui/</font>中可用，其中<font size=4 color="#FFB90F">base\_path</font>是API的基本路径。
+缺省情况下，API的Swagger UI在<font size=4 color="#FFB90F">base_path/ui/</font>中可用，其中<font size=4 color="#FFB90F">base\_path</font>是API的基本路径。
 
 您可以在应用程序级别禁用Swagger UI：
 
@@ -139,7 +139,7 @@ paths:
       operationId: myapp.api.hello_world
 ```
 
-如果您在规范POST请求中向<font color="#FFB90F">http://MYHOST/hello\_world</font>提供了此路径，它将由myapp.api模块中的函数hello\_world处理。或者，您可以在操作定义中包含x-swagger-router-controller，使operationId是相对的：
+如果您在规范POST请求中向<font color="#FFB90F">http://MYHOST/hello_world</font>提供了此路径，它将由myapp.api模块中的函数hello\_world处理。或者，您可以在操作定义中包含x-swagger-router-controller，使operationId是相对的：
 
 ```
 paths:
